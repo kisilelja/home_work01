@@ -5,11 +5,9 @@ int digit1 = numberA / 10;
 int digit2 = numberA % 10;
 if (digit1 > digit2)
 {
-    Console.Write("Наибольшая цифра числа = ");
-    Console.WriteLine(digit1);
+    Console.WriteLine($"Наибольшая цифра числа ={digit1} ");
 }
 else
 {
-   Console.Write ("Наибольшая цифра числа = "); 
-   Console.WriteLine(digit2);
+   Console.Write ($"Наибольшая цифра числа ={digit2} ");  
 }
